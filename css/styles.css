@@ -96,7 +96,6 @@ button {
 .head-container {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 }
 
 
@@ -131,6 +130,7 @@ button {
 }
 
 .studio-list-link {
+    position: relative;
     overflow: hidden;
     font-weight: 500;
     font-size: 16px;
@@ -218,11 +218,11 @@ button {
 /* Studio title */
 
 .studio-title {
-    max-width: 1440px;
     background-color: var(--dark-color);
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    /* max-width: 1440px; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
