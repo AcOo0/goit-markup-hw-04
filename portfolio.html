@@ -20,9 +20,10 @@
             <nav class="head-nav-list">
                 <a class="logo link head-logo" href="index.html">Web<span class="logo-web">Studio</span></a>
                 <ul class="list">
-                    <li class="studio-list"><a class="studio-list-link link" href="./index.html">Studio</a></li>
-                    <li class="studio-list"><a class="studio-list-link link" href="./portfolio.html">Portfolio</a></li>
-                    <li class="studio-list"><a class="studio-list-link link" href="">Contacts</a></li>
+                    <li class="studio-list"><a class="studio-list-link link current" href="./index.html">Studio</a></li>
+                    <li class="studio-list"><a class="studio-list-link link current"
+                            href="./portfolio.html">Portfolio</a></li>
+                    <li class="studio-list"><a class="studio-list-link link current" href="">Contacts</a></li>
                 </ul>
             </nav>
             <address class="address-list">
@@ -57,8 +58,19 @@
                         </a>
                     </li>
                     <li class="portfolio-list-item">
-                        <a class="link" href=""><img src="./images/img-portfolio-2.jpg" alt="Cashless Payment"
-                                width="360" height="300">
+                        <a class="link" href="">
+                            <div class="portfolio-cover-wrap">
+                                <a class="link portfolio-link" href=""> <img src="./images/img-portfolio-2.jpg"
+                                        alt="Cashless Payment" width="360" height="300">
+                                    <div class="portfolio-cover">
+                                        <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts
+                                            · Task
+                                            Manager App · Calorie Tracker
+                                            App · Exotic Fruit Ecommerce App ·
+                                            Cloud Storage App</p>
+                                    </div>
+                                    <a class="link" href="">
+                            </div>
                             <div class="portfolio-item">
                                 <h2 class="filter-title">Cashless Payment</h2>
                                 <p class="list-text portfolio-list-text">Marketing</p>
@@ -136,11 +148,48 @@
 
     <footer class="basement">
         <div class="container">
-            <a class="logo link" href="./index.html">Web<span class="logo-web">Studio</span></a>
-            <p class="basement-text">
-                Increase the flow of customers and sales for your business with digital
-                marketing & growth solutions.
-            </p>
+            <div class="wrap-basement">
+                <div class="basement-left-side">
+                    <a class="logo link" href="./index.html">Web<span class="logo-web">Studio</span></a>
+                    <p class="basement-text">
+                        Increase the flow of customers and sales for your business with digital
+                        marketing & growth solutions.
+                    </p>
+                </div>
+                <div class="basement-rigth-side">
+                    <h4 class="social-titel">Social media</h4>
+                    <ul class="basement-social-list list">
+                        <li class="social-item">
+                            <a href="" class="social-basement-link">
+                                <svg class="social-icon" wight="40" height="40">
+                                    <use href="./images/icons.svg#icon-insta-fut"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="" class="social-basement-link">
+                                <svg class="social-icon" wight="40" height="40">
+                                    <use href="./images/icons.svg#icon-twitter-fut"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="" class="social-basement-link">
+                                <svg class="social-icon" wight="40" height="40">
+                                    <use href="./images/icons.svg#icon-facebook-fut"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="" class="social-basement-link">
+                                <svg class="social-icon" wight="40" height="40">
+                                    <use href="./images/icons.svg#icon-linkedin-fut"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 
